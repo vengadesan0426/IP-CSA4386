@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - BIOPRO VET CARE SHOP</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+                       background-size: cover;
+        }
+        header {
+            background-color: rgba(0, 123, 255, 0.85);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #FFD700;
+        }
+        .content {
+            background-color: pink;
+            padding: 50px 20px;
+            max-width: 900px;
+            margin: 50px auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            backdrop-filter: blur(10px);
+            text-align: center;
+        }
+        .content h1 {
+            color: #007BFF;
+        }
+        .content p {
+            line-height: 1.6;
+            margin: 15px 0;
+        }
+        .contact-info {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .contact-info div {
+            margin-bottom: 20px;
+        }
+        .contact-info span {
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>BIOPRO VET CARE SHOP</h1>
+    <nav>
+        <a href="homepage.php">Home</a>
+        <a href="login.php">Login</a>
+        <a href="details.php">Contact Us</a>
+    </nav>
+</header>
+
+<div class="content">
+    <h1>Contact Us</h1>
+    <p>
+        We are here to assist you with any questions or concerns you may have. Please feel free to reach out to us through the following contact details:
+    </p>
+    <div class="contact-info">
+        <div>
+            <span>Address:</span> 123 Saveetha University, Chennai, CH 12345
+        </div>
+        <div>
+            <span>Phone:</span> +91 89654 85471
+        </div>
+        <div>
+            <span>Email:</span> contact@bioprovetcare.com
+        </div>
+        <div>
+            <span>Business Hours:</span> Monday - Friday: 9:00 AM - 6:00 PM
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 BIOPRO VET CARE SHOP. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

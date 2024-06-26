@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout - BIOPRO VET CARE SHOP</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-size: cover;
+        }
+        .content {
+            background-color: white;
+            padding: 50px 20px;
+            max-width: 900px;
+            margin: 50px auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            backdrop-filter: blur(10px);
+            text-align: center;
+        }
+        .content h1 {
+            color: #007BFF;
+        }
+        .content button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .content button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="content">
+    <h1>Logout</h1>
+    <p>Are you sure you want to logout?</p>
+    <button onclick="logout()">Logout</button>
+    <a href = "report_generation.php">GENERATE REPORT</a>
+</div>
+
+<footer>
+    <p>&copy; 2024 BIOPRO VET CARE SHOP. All rights reserved.</p>
+</footer>
+
+<script>
+    function logout() {
+        // Clear any user session data (if any)
+        // For example, clear localStorage, session storage, cookies, etc.
+        // Here, we'll simply redirect to the homepage
+        window.location.href = 'front.html';
+    }
+</script>
+
+</body>
+</html>
